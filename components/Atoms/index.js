@@ -1,0 +1,13 @@
+import Button from './Button'
+import NavLink from './NavLink'
+import Heading from './Heading'
+import SubTitle from './SubTitle'
+import Paragraph from './Paragraph'
+
+export default {
+  Button,
+  NavLink,
+  Heading,
+  SubTitle,
+  Paragraph
+}
