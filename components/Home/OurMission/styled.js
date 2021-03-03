@@ -1,6 +1,5 @@
 import styled from 'styled-components'
-import { Atoms } from '../../../../components'
-import SectionDescription from "../../../../components/Molecules/SectionDescription/styled";
+import { Atoms } from '../../../components'
 
 const { Button } = Atoms
 

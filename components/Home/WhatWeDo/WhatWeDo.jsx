@@ -2,8 +2,8 @@ import React from 'react'
 import { Container, Row, Col } from 'styled-bootstrap-grid'
 
 import WhatWeDo from './styled'
-import { example } from '../../../../static'
-import { Molecules } from '../../../../components'
+import { example } from '../../../static'
+import { Molecules } from '../../../components'
 
 const { SectionDescription, ServiceCard } = Molecules
 

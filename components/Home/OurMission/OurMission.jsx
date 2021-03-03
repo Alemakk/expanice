@@ -1,12 +1,11 @@
 import React from 'react'
 import { useRouter } from 'next/router'
-import PropsTypes from 'prop-types'
 import { Container, Row, Col } from 'styled-bootstrap-grid'
 
-import { example } from '../../../../static'
-import { Atoms, Molecules } from '../../../../components'
+import { example } from '../../../static'
+import { Atoms, Molecules } from '../../../components'
 
-const { Button, Paragraph } = Atoms
+const { Paragraph } = Atoms
 const { SectionDescription } = Molecules
 
 import OurMission from './styled'

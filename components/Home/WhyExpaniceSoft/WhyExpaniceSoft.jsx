@@ -2,9 +2,9 @@ import React from 'react'
 import { Container, Row, Col } from 'styled-bootstrap-grid'
 
 import ExpaniceSoft from './styled'
-import { Molecules } from '../../../../components'
+import { Molecules } from '../../../components'
 const { SectionDescription, Card } = Molecules
-import { icon1 } from '../../../../static'
+import { icon1 } from '../../../static'
 
 const exampleDescription = `<p>Expanice developers have the right competence to build eCommerce solutions, social networking, mobile back-ends, sleek data processing tools, infrastructure for IoT systems, and more.</p>`
 

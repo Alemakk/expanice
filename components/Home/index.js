@@ -2,7 +2,7 @@ import WhatWeDo from './WhatWeDo'
 import OurMission from './OurMission'
 import WhyExpaniceSoft from './WhyExpaniceSoft'
 
-export {
+export default {
   WhatWeDo,
   OurMission,
   WhyExpaniceSoft
