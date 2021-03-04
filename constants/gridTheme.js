@@ -15,7 +15,7 @@ const gridTheme = {
     padding: 18,
   },
   container: {
-    padding: 0,
+    padding: 18,
     maxWidth: {
       xxl: 1326,
       xl: 1325,

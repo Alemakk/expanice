@@ -1,5 +1,6 @@
 import styled from 'styled-components'
-import { Atoms, Molecules } from '../../'
+import { rgba } from 'polished'
+import { Atoms} from '../../'
 
 const { Heading, Button, SubTitle } = Atoms
 
@@ -30,6 +31,7 @@ PageBanner.JustifyContent = styled('div')`
 
 PageBanner.Button = styled(Button)`
   margin-top: 6rem;
+  ${({ theme }) => `box-shadow: 0 0.8rem 3rem 0 ${rgba(theme.colors.green, 0.38)}`};
 `
 
 export default PageBanner

@@ -6,8 +6,6 @@ import PageBanner from './styled'
 import { Molecules } from '../../'
 import { banner } from '../../../static'
 
-// const { SectionDescription } = Molecules
-
 const ThemePageBanner = props => {
   const { children, title = '', subTitle, route = '/', ...rest } = props
   return (
@@ -29,9 +27,10 @@ const ThemePageBanner = props => {
               </PageBanner.Button>
             </PageBanner.Left>
           </Col>
+
+          <Col col={12} md={8}>{children}</Col>
         </Row>
       </Container>
-      {children}
     </PageBanner>
   )
 }
