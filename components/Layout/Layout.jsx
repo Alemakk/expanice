@@ -3,7 +3,7 @@ import NextHead from "next/head";
 import GoogleFonts from "next-google-fonts";
 
 import { Molecules } from '../'
-const { Header } = Molecules
+const { Header, Footer } = Molecules
 
 export default function ({ title = 'Default page title', children }) {
   return (
@@ -23,6 +23,7 @@ export default function ({ title = 'Default page title', children }) {
       <main>
         <Header />
         {children}
+        <Footer />
       </main>
     </>
   )

@@ -3,6 +3,7 @@ import PropsTypes from 'prop-types'
 import { Container, Row, Col } from 'styled-bootstrap-grid'
 
 import MainBanner from './styled'
+import ServiceCard from "../ServiceCard/styled";
 
 const ThemeMainBanner = props => {
   const {
@@ -14,7 +15,8 @@ const ThemeMainBanner = props => {
     ...rest
   } = props
   return (
-    <MainBanner poster={poster}>
+    <MainBanner>
+      <MainBanner.Poster src={poster} alt='image' layout='fill' objectFit='cover' />
       <Container>
         <Row>
           <Col col={12}>

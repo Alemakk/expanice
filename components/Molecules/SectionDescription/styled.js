@@ -9,6 +9,7 @@ const SectionDescription = styled('div')`
 
 SectionDescription.SubTitle = styled(SubTitle)`
   text-align: inherit;
+  color: ${({ theme }) => theme.colors.green_seconds};
 `
 
 SectionDescription.Title = styled(Heading)`

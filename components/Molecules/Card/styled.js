@@ -1,4 +1,6 @@
 import styled from 'styled-components'
+import Image from 'next/image'
+
 import { Atoms } from '../../'
 
 const { Heading, Paragraph } = Atoms
@@ -13,10 +15,7 @@ Card.Description = styled(Paragraph)`
   margin-top: 2rem;
 `
 
-Card.Icon = styled('img')`
-  width: 10rem;
-  height: 8rem;
-`
+Card.Icon = styled(Image)``
 
 Card.Info = styled('div')`
   margin-top: 6rem;

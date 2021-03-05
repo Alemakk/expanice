@@ -1,11 +1,11 @@
 import styled from 'styled-components'
-import { ReactSVG } from 'react-svg'
 import { Atoms } from '../../'
 
-const { Button, NavLink } = Atoms
+const { Button } = Atoms
 
-const Header = styled('nav')`
+const Header = styled('header')`
   position: absolute;
+  z-index: 5;
   top: 0;
   left: 0;
   width: 100%;

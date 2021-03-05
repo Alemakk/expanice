@@ -1,9 +1,3 @@
-import theme from './theme'
-import routes from './routes'
-import gridTheme from './gridTheme'
-
-export {
-  theme,
-  routes,
-  gridTheme
-}
+export { default as theme } from './theme'
+export { default as routes } from './routes'
+export { default as gridTheme } from './gridTheme'

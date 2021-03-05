@@ -1,4 +1,6 @@
 import styled from 'styled-components'
+import Image from 'next/image'
+
 import { Atoms } from '../../../components'
 
 const { Button } = Atoms
@@ -18,12 +20,12 @@ OurMission.JustifyContent = styled('div')`
   height: 100%;
 `
 
-OurMission.Image = styled('img')`
-  display: block;
+OurMission.ImageWrapper = styled('div')`
+  position: relative;
   width: 100%;
-  max-width: 54rem;
-  height: 100%;
-  object-fit: cover;
+  height: 38rem;
 `
+
+OurMission.Image = styled(Image)``
 
 export default OurMission

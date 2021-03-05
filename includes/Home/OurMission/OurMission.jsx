@@ -48,7 +48,9 @@ const ThemeOurMission = props => {
                 <Paragraph text={text} />
               </Col>
               <Col col={12} md={6}>
-                <OurMission.Image src={example} alt='image' />
+                <OurMission.ImageWrapper>
+                  <OurMission.Image src={example} alt='image' layout='fill' objectFit='cover' />
+                </OurMission.ImageWrapper>
               </Col>
             </Row>
           </Col>

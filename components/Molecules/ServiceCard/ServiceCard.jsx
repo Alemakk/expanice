@@ -6,7 +6,10 @@ import ServiceCard from './styled'
 const ThemeServiceCard = props => {
   const { title = '', description = '', poster = '', onClick } = props
   return (
-    <ServiceCard poster={poster}>
+    <ServiceCard>
+      {!!poster &&
+        <ServiceCard.Poster src={poster} alt='image' layout='fill' objectFit='cover' />
+      }
       <ServiceCard.Content>
         <ServiceCard.Heading level={3} title={title} />
         <ServiceCard.Description text={description} />

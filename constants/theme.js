@@ -4,7 +4,9 @@ const theme = {
     white: '#ffffff',
     black: '#000000',
     black_secondary: '#20232a',
+    dark: '#20232a',
     green: '#23cf97',
+    green_seconds: '#23cfa2',
     gray: '#f6f6f6',
     transparent: 'transparent'
   },

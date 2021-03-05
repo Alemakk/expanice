@@ -1,9 +1,4 @@
-import Atoms from './Atoms'
-import Molecules from './Molecules'
-import Layout from './Layout'
+export { default as Atoms } from './Atoms'
+export { default as Molecules } from './Molecules'
+export { default as Layout } from './Layout'
 
-export {
-  Atoms,
-  Molecules,
-  Layout
-}
