@@ -1,6 +1,7 @@
 import Card from './Card'
 import Header from './Header'
 import Footer from './Footer'
+import Employee from './Employee'
 import MainBanner from './MainBanner'
 import PageBanner from './PageBanner'
 import ServiceCard from './ServiceCard'
@@ -11,6 +12,7 @@ export default {
   Card,
   Header,
   Footer,
+  Employee,
   MainBanner,
   PageBanner,
   ServiceCard,

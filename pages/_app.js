@@ -1,4 +1,6 @@
 import React from 'react'
+import 'swiper/swiper-bundle.css';
+import 'swiper/components/effect-fade/effect-fade.scss';
 import { createGlobalStyle, ThemeProvider } from 'styled-components'
 import { GridThemeProvider } from 'styled-bootstrap-grid'
 import { theme, gridTheme } from '../constants'
